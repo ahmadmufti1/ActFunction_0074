@@ -30,8 +30,9 @@ int main()
 {
     Input();
     Output();
-    cout << "Hasil OEnjumlahan = "<< Jumlah(5,6,9);
+    cout << "Hasil Penjumlahan = "<< Jumlah(5,6,9);
 }
+
 
 
 
