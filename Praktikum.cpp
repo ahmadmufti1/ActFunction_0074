@@ -6,7 +6,7 @@ float p,l;
 //Deklarasi Prosedur
 void Input()
 {
-    cout << "Masukkan Panjan : ";
+    cout << "Masukkan Panjang : ";
     cin >> p;
     cout << "Masukkan Lebar : "; 
     cin >> l;
