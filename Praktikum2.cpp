@@ -5,52 +5,30 @@ float p,l;
 
 void Input()
 {
-    cout << "Masukkan Panjan : ";
+    cout << "Masukkan Panjang : ";
     cin >> p;
     cout << "Masukkan Lebar : "; 
     cin >> l;
 }
 
-float LuasPersegi(){
-    return p*l;
+float LuasPersegi(float x, float y){
+    return x*y;
+}
+
+int Jumlah(int a, int b, int c){
+    return a+b+c;
 }
 
 void Output()
 {
-    cout << "Hasilnya = " << LuasPersegi();
+    cout << "Hasilnya = " << LuasPersegi(p,l) <<endl;
 }
 
 int main()
 {
     Input();
     Output();
+    cout << "Hasil OEnjumlahan = "<< Jumlah(5,6,9);
 }
 
-#include <iostream>
-using namespace std;
-
-float a,t;
-
-void Input()
-{
-    cout << "Masukkan Alas : ";
-    cin >> a;
-    cout << "Masukkan Tinggi : "; 
-    cin >> t;
-}
-
-float LuasSegitiga(){
-    return 0.5*a*t;
-}
-
-void Output()
-{
-    cout << "Hasilnya = " << LuasSegitiga();
-}
-
-int main()
-{
-    Input();
-    Output();
-}
 
