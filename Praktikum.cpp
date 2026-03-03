@@ -1,5 +1,6 @@
-//Hasil Proses
-void Output()
+//Menjalankan Program
+int main()
 {
-    cout << "Hasilnya = " << LuasPersegi();
+    Input();
+    Output();
 }
