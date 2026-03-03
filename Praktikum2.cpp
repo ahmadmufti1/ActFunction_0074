@@ -1,8 +1,9 @@
 #include <iostream>
 using namespace std;
-
+//Deklarasi Variable Global
 float p,l;
 
+//Implementasi Prosedur dan Fungsi
 void Input()
 {
     cout << "Masukkan Panjang : ";
@@ -24,11 +25,13 @@ void Output()
     cout << "Hasilnya = " << LuasPersegi(p,l) <<endl;
 }
 
+//Program Utama
 int main()
 {
     Input();
     Output();
     cout << "Hasil OEnjumlahan = "<< Jumlah(5,6,9);
 }
+
 
 
