@@ -1,4 +1,5 @@
-//Proses
-float LuasPersegi(){
-    return p*l;
+//Hasil Proses
+void Output()
+{
+    cout << "Hasilnya = " << LuasPersegi();
 }
